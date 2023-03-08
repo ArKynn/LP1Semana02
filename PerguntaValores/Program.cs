@@ -12,7 +12,7 @@ namespace PerguntaValores
             Console.WriteLine("Enter the height of the cylinder:");
             int height = Convert.ToInt32(Console.ReadLine());
             
-            float Pi = 3.1415926f; 
+            double Pi = Math.PI; 
             double Volume = Pi * Math.Pow(radius, radius) * height;
             Console.WriteLine($"The volume of the cylinder is {Volume}");
 
