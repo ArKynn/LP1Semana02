@@ -16,6 +16,9 @@ namespace PerguntaValores
             double Volume = Pi * Math.Pow(radius, radius) * height;
             Console.WriteLine($"The volume of the cylinder is {Volume}");
 
+            double SuperficialArea = 2 * Pi * radius * (radius + height);
+            Console.WriteLine($"The superficial area of the cylinder is {SuperficialArea}");
+
 
         }
     }
