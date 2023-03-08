@@ -66,6 +66,21 @@ namespace Specials
             Console.WriteLine($"Max possible double value: {maxdouble}");
             Console.WriteLine($"Min possible double value: {mindouble}");
 
+            float f_plusinfinity = float.PositiveInfinity;
+            float f_minusinfinity = float.NegativeInfinity;
+            float f_NaN = float.NaN;
+
+            Console.WriteLine($"+Infinity in float: {f_plusinfinity}");
+            Console.WriteLine($"-Infinity in float: {f_minusinfinity}");
+            Console.WriteLine($"NaN in float: {f_NaN}");
+
+            double d_plusinfinity = double.PositiveInfinity;
+            double d_minusinfinity = double.NegativeInfinity;
+            double d_NaN = double.NaN;
+
+            Console.WriteLine($"+Infinity in double: {d_plusinfinity}");
+            Console.WriteLine($"-Infinity in double: {d_minusinfinity}");
+            Console.WriteLine($"NaN in double: {d_NaN}");
 
         }
     }
