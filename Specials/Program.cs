@@ -81,6 +81,21 @@ namespace Specials
             Console.WriteLine($"+Infinity in double: {d_plusinfinity}");
             Console.WriteLine($"-Infinity in double: {d_minusinfinity}");
             Console.WriteLine($"NaN in double: {d_NaN}");
+            
+            Console.WriteLine($"Byte overflow: {maxbyte++}");
+            Console.WriteLine($"Byte underflow: {minbyte--}");
+            
+            Console.WriteLine($"Short overflow: {maxshort++}");
+            Console.WriteLine($"Short underflow: {minshort--}");
+            
+            Console.WriteLine($"Int overflow: {maxint++}");
+            Console.WriteLine($"Int underflow: {minint--}");
+            
+            Console.WriteLine($"Float Oveflow: {maxfloat++}");
+            Console.WriteLine($"float underflow: {minfloat--}");
+            
+            Console.WriteLine($"Double Overflow: {maxdouble++}");
+            Console.WriteLine($"Double Underflow: {mindouble--}");
 
         }
     }
